@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C16AB62A0B21E600B2EC35 /* FormatTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C16AB52A0B21E600B2EC35 /* FormatTime.swift */; };
+		48D2091C2A09CDBB00F4FBB0 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2091B2A09CDBB00F4FBB0 /* Album.swift */; };
+		48D2091E2A09DF3300F4FBB0 /* 告白氣球.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D2091D2A09DF3300F4FBB0 /* 告白氣球.mp3 */; };
+		48D209242A09E50000F4FBB0 /* 一路向北.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D209222A09E50000F4FBB0 /* 一路向北.mp3 */; };
+		48D209252A09E50000F4FBB0 /* 給我一首歌的時間.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D209232A09E50000F4FBB0 /* 給我一首歌的時間.mp3 */; };
+		48D2092A2A09F29400F4FBB0 /* 超有感.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D209272A09F29400F4FBB0 /* 超有感.mp3 */; };
+		48D2092B2A09F29400F4FBB0 /* 地球上最浪漫的一首歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D209282A09F29400F4FBB0 /* 地球上最浪漫的一首歌.mp3 */; };
+		48D2092C2A09F29400F4FBB0 /* 有感情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48D209292A09F29400F4FBB0 /* 有感情歌.mp3 */; };
+		F03200352A09399300A8789D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03200342A09399300A8789D /* AppDelegate.swift */; };
+		F03200372A09399300A8789D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03200362A09399300A8789D /* SceneDelegate.swift */; };
+		F03200392A09399300A8789D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03200382A09399300A8789D /* ViewController.swift */; };
+		F032003C2A09399300A8789D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F032003A2A09399300A8789D /* Main.storyboard */; };
+		F032003E2A09399400A8789D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F032003D2A09399400A8789D /* Assets.xcassets */; };
+		F03200412A09399400A8789D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F032003F2A09399400A8789D /* LaunchScreen.storyboard */; };
+		F032004A2A09430100A8789D /* 天后.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F03200482A09430100A8789D /* 天后.mp3 */; };
+		F032004B2A09430100A8789D /* 勢在必行.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F03200492A09430100A8789D /* 勢在必行.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48C16AB52A0B21E600B2EC35 /* FormatTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTime.swift; sourceTree = "<group>"; };
+		48D2091B2A09CDBB00F4FBB0 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		48D2091D2A09DF3300F4FBB0 /* 告白氣球.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "告白氣球.mp3"; sourceTree = "<group>"; };
+		48D209222A09E50000F4FBB0 /* 一路向北.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一路向北.mp3"; sourceTree = "<group>"; };
+		48D209232A09E50000F4FBB0 /* 給我一首歌的時間.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "給我一首歌的時間.mp3"; sourceTree = "<group>"; };
+		48D209272A09F29400F4FBB0 /* 超有感.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "超有感.mp3"; sourceTree = "<group>"; };
+		48D209282A09F29400F4FBB0 /* 地球上最浪漫的一首歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "地球上最浪漫的一首歌.mp3"; sourceTree = "<group>"; };
+		48D209292A09F29400F4FBB0 /* 有感情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "有感情歌.mp3"; sourceTree = "<group>"; };
+		F03200312A09399300A8789D /* page_Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = page_Control.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03200342A09399300A8789D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F03200362A09399300A8789D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F03200382A09399300A8789D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F032003B2A09399300A8789D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F032003D2A09399400A8789D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03200402A09399400A8789D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F03200422A09399400A8789D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03200482A09430100A8789D /* 天后.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "天后.mp3"; sourceTree = "<group>"; };
+		F03200492A09430100A8789D /* 勢在必行.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "勢在必行.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F032002E2A09399300A8789D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D2091F2A09DF5100F4FBB0 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				48D209262A09F28700F4FBB0 /* 黃鴻升 */,
+				48D209212A09DF7500F4FBB0 /* 周杰倫 */,
+				48D209202A09DF6600F4FBB0 /* 陳勢安 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		48D209202A09DF6600F4FBB0 /* 陳勢安 */ = {
+			isa = PBXGroup;
+			children = (
+				F03200482A09430100A8789D /* 天后.mp3 */,
+				F03200492A09430100A8789D /* 勢在必行.mp3 */,
+			);
+			path = "陳勢安";
+			sourceTree = "<group>";
+		};
+		48D209212A09DF7500F4FBB0 /* 周杰倫 */ = {
+			isa = PBXGroup;
+			children = (
+				48D209222A09E50000F4FBB0 /* 一路向北.mp3 */,
+				48D209232A09E50000F4FBB0 /* 給我一首歌的時間.mp3 */,
+				48D2091D2A09DF3300F4FBB0 /* 告白氣球.mp3 */,
+			);
+			path = "周杰倫";
+			sourceTree = "<group>";
+		};
+		48D209262A09F28700F4FBB0 /* 黃鴻升 */ = {
+			isa = PBXGroup;
+			children = (
+				48D209282A09F29400F4FBB0 /* 地球上最浪漫的一首歌.mp3 */,
+				48D209292A09F29400F4FBB0 /* 有感情歌.mp3 */,
+				48D209272A09F29400F4FBB0 /* 超有感.mp3 */,
+			);
+			path = "黃鴻升";
+			sourceTree = "<group>";
+		};
+		F03200282A09399300A8789D = {
+			isa = PBXGroup;
+			children = (
+				F03200332A09399300A8789D /* page_Control */,
+				F03200322A09399300A8789D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F03200322A09399300A8789D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03200312A09399300A8789D /* page_Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03200332A09399300A8789D /* page_Control */ = {
+			isa = PBXGroup;
+			children = (
+				48D2091F2A09DF5100F4FBB0 /* music */,
+				F03200342A09399300A8789D /* AppDelegate.swift */,
+				F03200362A09399300A8789D /* SceneDelegate.swift */,
+				F03200382A09399300A8789D /* ViewController.swift */,
+				48D2091B2A09CDBB00F4FBB0 /* Album.swift */,
+				F032003A2A09399300A8789D /* Main.storyboard */,
+				F032003D2A09399400A8789D /* Assets.xcassets */,
+				F032003F2A09399400A8789D /* LaunchScreen.storyboard */,
+				F03200422A09399400A8789D /* Info.plist */,
+				48C16AB52A0B21E600B2EC35 /* FormatTime.swift */,
+			);
+			path = page_Control;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03200302A09399300A8789D /* page_Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03200452A09399400A8789D /* Build configuration list for PBXNativeTarget "page_Control" */;
+			buildPhases = (
+				F032002D2A09399300A8789D /* Sources */,
+				F032002E2A09399300A8789D /* Frameworks */,
+				F032002F2A09399300A8789D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = page_Control;
+			productName = page_Control;
+			productReference = F03200312A09399300A8789D /* page_Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03200292A09399300A8789D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F03200302A09399300A8789D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F032002C2A09399300A8789D /* Build configuration list for PBXProject "page_Control" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03200282A09399300A8789D;
+			productRefGroup = F03200322A09399300A8789D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03200302A09399300A8789D /* page_Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F032002F2A09399300A8789D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D2092C2A09F29400F4FBB0 /* 有感情歌.mp3 in Resources */,
+				48D2092A2A09F29400F4FBB0 /* 超有感.mp3 in Resources */,
+				F03200412A09399400A8789D /* LaunchScreen.storyboard in Resources */,
+				48D2091E2A09DF3300F4FBB0 /* 告白氣球.mp3 in Resources */,
+				48D209242A09E50000F4FBB0 /* 一路向北.mp3 in Resources */,
+				48D2092B2A09F29400F4FBB0 /* 地球上最浪漫的一首歌.mp3 in Resources */,
+				F032003E2A09399400A8789D /* Assets.xcassets in Resources */,
+				48D209252A09E50000F4FBB0 /* 給我一首歌的時間.mp3 in Resources */,
+				F032004B2A09430100A8789D /* 勢在必行.mp3 in Resources */,
+				F032003C2A09399300A8789D /* Main.storyboard in Resources */,
+				F032004A2A09430100A8789D /* 天后.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F032002D2A09399300A8789D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D2091C2A09CDBB00F4FBB0 /* Album.swift in Sources */,
+				48C16AB62A0B21E600B2EC35 /* FormatTime.swift in Sources */,
+				F03200392A09399300A8789D /* ViewController.swift in Sources */,
+				F03200352A09399300A8789D /* AppDelegate.swift in Sources */,
+				F03200372A09399300A8789D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F032003A2A09399300A8789D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F032003B2A09399300A8789D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F032003F2A09399400A8789D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03200402A09399400A8789D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F03200432A09399400A8789D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F03200442A09399400A8789D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03200462A09399400A8789D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QL8S5BC5QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = page_Control/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poan.page-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F03200472A09399400A8789D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QL8S5BC5QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = page_Control/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poan.page-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F032002C2A09399300A8789D /* Build configuration list for PBXProject "page_Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03200432A09399400A8789D /* Debug */,
+				F03200442A09399400A8789D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03200452A09399400A8789D /* Build configuration list for PBXNativeTarget "page_Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03200462A09399400A8789D /* Debug */,
+				F03200472A09399400A8789D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03200292A09399300A8789D /* Project object */;
+}
